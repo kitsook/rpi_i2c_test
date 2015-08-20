@@ -12,6 +12,7 @@ Note that:
 - By disabling the Arduino pullup resistors, although not ideal, allow Raspberry Pi to be connected to Arduino via I2C directly without a level shifter
 
 References:
+
 https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
 http://playground.arduino.cc/Main/I2CBi-directionalLevelShifter
 http://www.varesano.net/blog/fabio/how-disable-internal-arduino-atmega-pullups-sda-and-scl-i2c-bus
