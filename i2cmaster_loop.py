@@ -40,5 +40,5 @@ while True:
         print ""
     var += 1
     var %= 256
-    time.sleep(0.05)
+    time.sleep(0.06)
 
