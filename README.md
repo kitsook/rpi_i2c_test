@@ -13,6 +13,6 @@ Note that:
 
 References:
 
-https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
-http://playground.arduino.cc/Main/I2CBi-directionalLevelShifter
-http://www.varesano.net/blog/fabio/how-disable-internal-arduino-atmega-pullups-sda-and-scl-i2c-bus
+* https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
+* http://playground.arduino.cc/Main/I2CBi-directionalLevelShifter
+* http://www.varesano.net/blog/fabio/how-disable-internal-arduino-atmega-pullups-sda-and-scl-i2c-bus
