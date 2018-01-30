@@ -8,8 +8,8 @@ Arduino, as slave, print out whatever it received.  And when requested, send out
 Note that:
 - Arduino I2C HAS internal pullup resistors.  This could be a problem when talking with devices running 3.3v (e.g. Raspberry Pi)
 - However, the Arduino pullup resistor is so weak (over 50K in Due), we can disable it in software and rely on the internal pullup resistors in Raspberry Pi instead
-- Some reference stated that Mega has hard-wired pullup resistors that can't be disabled via software
-- By disabling the Arduino pullup resistors, although not ideal, allow Raspberry Pi to be connected to Arduino via I2C directly without a level shifter
+- Some references stated that Mega has hard-wired pullup resistors that can't be disabled via software
+- By disabling the Arduino pullup resistors, although not ideal, it does allow Raspberry Pi to be connected to Arduino via I2C directly without a level shifter
 
 References:
 
